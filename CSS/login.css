@@ -1,0 +1,139 @@
+:root {
+    --rose-quartz: #F3E3E2;
+    --deep-red: #571216;
+    --rich-crimson: #7A1C27;
+    --dusky-rose: #921F45;
+    --soft-pink: #BA4073;
+    --pale-peach: #FAD5C2;
+    --charcoal: rgb(31,31,31);
+}
+
+body {
+    background: url("Images/bg1.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+    color: var(--rose-quartz);
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.fa-mountain {
+    color: var(--rich-crimson);
+    background: var(--rose-quartz);
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+.form-container {
+    width: 30%;
+    margin: 0 auto;
+    border: 2px solid var(--rose-quartz);
+    border-radius: 5px;
+    padding: 40px;
+    color: var(--rose-quartz);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--charcoal);
+    box-shadow: 0 0 0 15px var(--charcoal); /* Add inset box shadow */
+}
+
+.form-container .form-head {
+    display: flex;
+    width: 100%; 
+    font-size: 30px;  
+} 
+
+.form-container .form-head h2 {
+    width: 50%;
+    display: inline;
+    margin-top: 0px;
+    text-align: center;
+    padding: 15px;
+    background: var(--dusky-rose);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.form-container .form-head h2.active {
+    background: var(--deep-red);
+}
+
+#loginForm {
+    display: block;
+}
+
+#signupForm{
+    display: none;
+}
+
+form {
+    line-height: 40px;
+    width: 100%;
+}
+
+
+form h3{
+    text-align: center;
+}
+
+form input {
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid var(--rose-quartz);
+    padding: 5px;
+    width: 100%;
+    line-height: 40px;
+    color: var(--rose-quartz); 
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+form label{
+    color: var(--rose-quartz); 
+}
+
+button{
+    width: 100%;
+    background: var(--deep-red);
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: var(--rose-quartz);
+    font-weight: bold;
+
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-row input {
+    width: 48%;
+    display: inline;
+}
+
+.top-row input:first-child {
+    margin-right: auto;
+}
+
+.top-row input:last-child {
+    margin-left: auto; 
+}
+
+
+
